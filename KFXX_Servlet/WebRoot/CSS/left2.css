@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+body{
+	
+	   padding: 0px;
+	  margin: 0px;
+	 
+	background-image: url("../img/bg3.jpg");
+		
+}
+.div1{
+	padding: 0px;
+	margin: 0px;
+		
+	
+}
+table{
+	
+	width:180px;
+	margin-top:80px;
+	margin-left: 100px;
+	text-align: center;
+}
+.bj1{
+	
+	width:170px;
+	height:33px;
+	background-image: url("../img/cd_01.gif");
+	text-align: center;
+	
+}
+.bj2{
+	text-decoration: none;
+	color: white;
+}
+.bj3{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}

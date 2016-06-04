@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.div1{
+		padding: 0px;
+	margin: 0px;
+	height: 400px;
+	width: 70%;
+	
+}

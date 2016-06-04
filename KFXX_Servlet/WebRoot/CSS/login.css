@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url("../img/bg_main.gif");
+}
+div{
+	
+	width:1000px;
+	height:600px;
+	margin:0px auto;
+	text-align:right;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	
+}
+table{
+	
+	padding-top:200px;
+	margin-right:100px;	
+}
+.button_login{
+	padding:0px;
+	width:81px;
+	height:42px;
+	background-image: url("../img/button_login.jpg");
+	background-repeat: no-repeat;
+}
+.button_reset{
+	padding:0px;
+	width:81px;
+	height:37px;
+	background-image: url("../img/button_reset.jpg");
+}

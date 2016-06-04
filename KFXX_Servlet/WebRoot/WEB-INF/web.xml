@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>KFXX_Servlet</display-name>
+  <welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+<servlet>
+	<servlet-name>loginServlet</servlet-name>
+	<servlet-class>Servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>loginServlet</servlet-name>
+	<url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productSearchServlet</servlet-name>
+	<servlet-class>Servlet.ProductSearchServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productSearchServlet</servlet-name>
+	<url-pattern>/productSearchServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productADDServlet</servlet-name>
+	<servlet-class>Servlet.ProductADDServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productADDServlet</servlet-name>
+	<url-pattern>/productADDServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productMarketServlet</servlet-name>
+	<servlet-class>Servlet.ProductMarketServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productMarketServlet</servlet-name>
+	<url-pattern>/productMarketServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>userSearchServlet</servlet-name>
+	<servlet-class>Servlet.UserSearchServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>userSearchServlet</servlet-name>
+	<url-pattern>/userSearchServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>userADDServlet</servlet-name>
+	<servlet-class>Servlet.UserADDServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>userADDServlet</servlet-name>
+	<url-pattern>/userADDServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productWarningServlet</servlet-name>
+	<servlet-class>Servlet.ProductWarningServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productWarningServlet</servlet-name>
+	<url-pattern>/productWarningServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productStatisticServlet</servlet-name>
+	<servlet-class>Servlet.ProductStatisticServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productStatisticServlet</servlet-name>
+	<url-pattern>/productStatisticServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productYearStatisticServlet</servlet-name>
+	<servlet-class>Servlet.ProductYearStatisticServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productYearStatisticServlet</servlet-name>
+	<url-pattern>/productYearStatisticServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>productDeleteServlet</servlet-name>
+	<servlet-class>Servlet.ProductDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>productDeleteServlet</servlet-name>
+	<url-pattern>/productDeleteServlet</url-pattern>
+</servlet-mapping>
+</web-app>
